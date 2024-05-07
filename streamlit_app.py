@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
+st.set_option('deprecation.showPyplotGlobalUse', False)
 data = pd.read_csv("tips.csv")
 
 st.subheader("Scatter Plot")
