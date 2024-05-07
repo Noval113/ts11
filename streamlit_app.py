@@ -16,11 +16,3 @@ plt.ylabel('Tip')
 
 plt.colorbar()
 st.pyplot()
-
-data = pd.read_excel("ds_salaries.xlsx")
-st.subheader("Bar - Salary")
-plt.bar(data['company_size'], data['salary'])
-plt.title("Salary in job title")
-plt.xlabel('company size')
-plt.ylabel('salary')
-st.pyplot()
