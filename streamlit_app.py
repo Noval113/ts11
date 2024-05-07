@@ -17,5 +17,4 @@ plt.xlabel('Day')
 plt.ylabel('Tip')
 
 plt.colorbar()
-
-plt.show()
+st.pyplot()
